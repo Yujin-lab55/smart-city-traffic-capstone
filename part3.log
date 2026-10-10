@@ -44,3 +44,5 @@
 2026-10-10 23:23:06,696 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
 2026-10-10 23:23:06,699 | WARNING | Comm | No such comm: 8be2688e-4387-4bcd-98dd-9addacd1763f
 2026-10-10 23:25:38,103 | INFO | part3_preparation | Neural network test evaluation | MAE=281.63 | R2=0.9433
+2026-10-10 23:31:35,430 | INFO | part3_preparation | Starting SHAP analysis | validation samples=200
+2026-10-10 23:32:14,738 | INFO | part3_preparation | SHAP analysis completed and outputs saved.
