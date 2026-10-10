@@ -52,3 +52,41 @@
 2026-10-10 21:38:51,067 | INFO | __main__ | CLI invoked | arguments=['date', '2017-13-01']
 2026-10-10 21:38:51,073 | INFO | __main__ | Command=date | parameters={'command': 'date', 'day': '2017-13-01'}
 2026-10-10 21:38:51,076 | ERROR | __main__ | Command failed: Use a valid date in YYYY-MM-DD format.
+2026-10-10 22:22:08,160 | INFO | __main__ | Loaded CSV: rows=48204 | columns=9
+2026-10-10 22:22:08,161 | INFO | __main__ | Schema validation passed
+2026-10-10 22:22:08,209 | WARNING | __main__ | Affected rows=48204 | Standardised text in holiday
+2026-10-10 22:22:08,253 | WARNING | __main__ | Affected rows=48204 | Standardised text in weather_main
+2026-10-10 22:22:08,316 | WARNING | __main__ | Affected rows=1730 | Standardised text in weather_description
+2026-10-10 22:22:08,334 | INFO | __main__ | Affected rows=0 | Dropped invalid dates
+2026-10-10 22:22:08,343 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in temp
+2026-10-10 22:22:08,344 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in rain_1h
+2026-10-10 22:22:08,345 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in snow_1h
+2026-10-10 22:22:08,346 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in clouds_all
+2026-10-10 22:22:08,346 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in traffic_volume
+2026-10-10 22:22:08,375 | WARNING | __main__ | Affected rows=17 | Removed exact duplicate rows
+2026-10-10 22:22:08,385 | INFO | __main__ | Affected rows=0 | Dropped missing, negative or non-integer traffic targets
+2026-10-10 22:22:08,393 | WARNING | __main__ | Affected rows=10 | Flagged missing or impossible values in temp
+2026-10-10 22:22:08,400 | WARNING | __main__ | Imputed rows=4 | column=temp | month=1 | method=calendar-month median | value=266.8300
+2026-10-10 22:22:08,402 | WARNING | __main__ | Imputed rows=6 | column=temp | month=2 | method=calendar-month median | value=266.5100
+2026-10-10 22:22:08,418 | WARNING | __main__ | Affected rows=1 | Flagged missing or impossible values in rain_1h
+2026-10-10 22:22:08,432 | WARNING | __main__ | Imputed rows=1 | column=rain_1h | month=7 | method=calendar-month median | value=0.0000
+2026-10-10 22:22:08,441 | INFO | __main__ | Affected rows=0 | Flagged missing or impossible values in snow_1h
+2026-10-10 22:22:08,463 | INFO | __main__ | Affected rows=0 | Flagged missing or impossible values in clouds_all
+2026-10-10 22:22:08,496 | INFO | __main__ | Repeated timestamp rows retained=7612; different weather records can share a timestamp
+2026-10-10 22:22:08,496 | INFO | __main__ | Cleaning completed: rows=48187 | columns=9
+2026-10-10 22:22:08,702 | INFO | __main__ | Saved cleaned dataset: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\traffic_cleaned.csv
+2026-10-10 22:22:09,697 | INFO | __main__ | Before feature engineering: rows=48187 | columns=9
+2026-10-10 22:22:09,768 | INFO | __main__ | After feature engineering: rows=48187 | columns=34
+2026-10-10 22:22:10,362 | INFO | __main__ | Saved feature dataset: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\traffic_features.csv
+2026-10-10 22:22:10,363 | INFO | __main__ | Saved feature definitions: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\feature_metadata.json
+2026-10-10 22:22:12,510 | INFO | __main__ | Loaded feature dataset: rows=48187 | columns=34
+2026-10-10 22:22:12,545 | INFO | __main__ | Prepared charts from 48187 records and 40575 distinct timestamps
+2026-10-10 22:22:12,781 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\01_traffic_by_hour.png
+2026-10-10 22:22:12,999 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\02_weekday_weekend.png
+2026-10-10 22:22:13,737 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\03_temperature_traffic.png
+2026-10-10 22:22:13,746 | INFO | __main__ | Saved chart interpretations: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\visualization_notes.md
+2026-10-10 22:22:13,749 | INFO | __main__ | All three charts completed
+2026-10-10 22:22:14,824 | INFO | __main__ | CLI invoked | arguments=['compare']
+2026-10-10 22:22:14,826 | INFO | __main__ | Command=compare | parameters={'command': 'compare'}
+2026-10-10 22:22:15,007 | INFO | __main__ | Loaded 40575 unique timestamps
+2026-10-10 22:22:15,024 | INFO | __main__ | Command completed successfully: compare
