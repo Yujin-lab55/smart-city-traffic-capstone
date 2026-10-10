@@ -1,0 +1,4 @@
+test,http_status,result
+Health check,200,PASS
+Prediction matches notebook model,200,PASS
+Reject missing features,400,PASS

@@ -1,0 +1,19 @@
+{
+  "hour": 15,
+  "day_of_week": 4,
+  "month": 1,
+  "is_weekend": 0,
+  "is_holiday": 0,
+  "hour_sin": -0.7071067812,
+  "hour_cos": -0.7071067812,
+  "dow_sin": -0.4338837391,
+  "dow_cos": -0.9009688679,
+  "temp_c": 5.14,
+  "rain_1h": 0.0,
+  "snow_1h": 0.0,
+  "clouds_all": 75.0,
+  "is_raining": 0,
+  "is_snowing": 0,
+  "is_low_visibility": 0,
+  "weather_main": "clouds"
+}

@@ -1,0 +1,6 @@
+{
+  "input_type": "engineered_features",
+  "model_version": "v1",
+  "note": "Educational prototype for the I-94 dataset.",
+  "predicted_traffic_volume": 5841.33
+}

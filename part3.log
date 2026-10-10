@@ -56,3 +56,9 @@
 2026-10-10 23:58:55,458 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-10-10 23:58:55,475 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2026-10-10 23:58:56,219 | INFO | travel_recommendation | Saved travel timing comparison chart.
+2026-10-11 00:03:25,357 | INFO | performance_monitoring | Held-out test data | MAE=246.60 | threshold=312.30 | status=PASS
+2026-10-11 00:03:25,361 | WARNING | performance_monitoring | Simulated prediction error (+1000) | MAE=1031.64 | threshold=312.30 | status=ALERT
+2026-10-11 00:06:04,616 | INFO | part3_preparation | Saved Flask API: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\app.py
+2026-10-11 00:08:16,145 | INFO | traffic_api | Traffic prediction completed: 5841.33
+2026-10-11 00:08:16,150 | WARNING | traffic_api | Missing input fields: ['hour', 'day_of_week', 'month', 'is_weekend', 'is_holiday', 'hour_sin', 'hour_cos', 'dow_sin', 'dow_cos', 'temp_c', 'rain_1h', 'snow_1h', 'clouds_all', 'is_raining', 'is_snowing', 'is_low_visibility', 'weather_main']
+2026-10-11 00:08:16,282 | INFO | part3_preparation | All three Flask API checks passed.
