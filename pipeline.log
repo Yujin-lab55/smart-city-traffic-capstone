@@ -30,3 +30,10 @@
 2026-10-10 20:29:57,509 | INFO | __main__ | Saved feature definitions: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\feature_metadata.json
 2026-10-10 21:20:55,539 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
 2026-10-10 21:20:55,609 | WARNING | Comm | No such comm: d290fff2-28aa-4bfc-8507-eabf90a13d4f
+2026-10-10 21:25:20,972 | INFO | __main__ | Loaded feature dataset: rows=48187 | columns=34
+2026-10-10 21:25:21,168 | INFO | __main__ | Prepared charts from 48187 records and 40575 distinct timestamps
+2026-10-10 21:25:21,907 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\01_traffic_by_hour.png
+2026-10-10 21:25:22,572 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\02_weekday_weekend.png
+2026-10-10 21:25:24,003 | INFO | __main__ | Saved figure: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\03_temperature_traffic.png
+2026-10-10 21:25:24,059 | INFO | __main__ | Saved chart interpretations: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\figures\visualization_notes.md
+2026-10-10 21:25:24,064 | INFO | __main__ | All three charts completed
