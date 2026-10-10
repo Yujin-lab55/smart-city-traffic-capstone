@@ -1,0 +1,3 @@
+2026-10-10 19:51:25,500 | INFO | __main__ | Loaded CSV: Metro_Interstate_Traffic_Volume.csv | rows=48204 | columns=9
+2026-10-10 19:51:25,512 | INFO | __main__ | Schema validation passed: all 9 required columns exist
+2026-10-10 19:51:25,513 | INFO | __main__ | Loading and validation completed: 48204 records
