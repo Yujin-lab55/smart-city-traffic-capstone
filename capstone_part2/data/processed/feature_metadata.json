@@ -1,0 +1,19 @@
+{
+  "scaling": {
+    "temp": {
+      "min": 243.39,
+      "max": 310.07
+    },
+    "rain_1h": {
+      "min": 0.0,
+      "max": 55.63
+    }
+  },
+  "traffic_quartiles": {
+    "q1": 1192.5,
+    "q2": 3379.0,
+    "q3": 4933.0
+  },
+  "category_rule": "Low <= Q1; Moderate > Q1 and <= Q2; High > Q2 and <= Q3; Severe > Q3",
+  "scope": "Part 2 exploratory features fitted on the cleaned dataset. For Part 3, fit learned preprocessing on training data only. Do not use traffic_volume or congestion_category as predictors of traffic_volume."
+}
