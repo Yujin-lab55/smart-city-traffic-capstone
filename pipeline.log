@@ -1,3 +1,26 @@
 2026-10-10 19:51:25,500 | INFO | __main__ | Loaded CSV: Metro_Interstate_Traffic_Volume.csv | rows=48204 | columns=9
 2026-10-10 19:51:25,512 | INFO | __main__ | Schema validation passed: all 9 required columns exist
 2026-10-10 19:51:25,513 | INFO | __main__ | Loading and validation completed: 48204 records
+2026-10-10 20:14:42,233 | INFO | __main__ | Loaded CSV: rows=48204 | columns=9
+2026-10-10 20:14:42,237 | INFO | __main__ | Schema validation passed
+2026-10-10 20:14:42,470 | WARNING | __main__ | Affected rows=48204 | Standardised text in holiday
+2026-10-10 20:14:42,558 | WARNING | __main__ | Affected rows=48204 | Standardised text in weather_main
+2026-10-10 20:14:42,675 | WARNING | __main__ | Affected rows=1730 | Standardised text in weather_description
+2026-10-10 20:14:42,748 | INFO | __main__ | Affected rows=0 | Dropped invalid dates
+2026-10-10 20:14:42,805 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in temp
+2026-10-10 20:14:42,809 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in rain_1h
+2026-10-10 20:14:42,813 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in snow_1h
+2026-10-10 20:14:42,817 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in clouds_all
+2026-10-10 20:14:42,821 | INFO | __main__ | Affected rows=0 | Missing or invalid numerical values in traffic_volume
+2026-10-10 20:14:42,884 | WARNING | __main__ | Affected rows=17 | Removed exact duplicate rows
+2026-10-10 20:14:42,915 | INFO | __main__ | Affected rows=0 | Dropped missing, negative or non-integer traffic targets
+2026-10-10 20:14:42,937 | WARNING | __main__ | Affected rows=10 | Flagged missing or impossible values in temp
+2026-10-10 20:14:42,963 | WARNING | __main__ | Imputed rows=4 | column=temp | month=1 | method=calendar-month median | value=266.8300
+2026-10-10 20:14:42,971 | WARNING | __main__ | Imputed rows=6 | column=temp | month=2 | method=calendar-month median | value=266.5100
+2026-10-10 20:14:43,013 | WARNING | __main__ | Affected rows=1 | Flagged missing or impossible values in rain_1h
+2026-10-10 20:14:43,050 | WARNING | __main__ | Imputed rows=1 | column=rain_1h | month=7 | method=calendar-month median | value=0.0000
+2026-10-10 20:14:43,070 | INFO | __main__ | Affected rows=0 | Flagged missing or impossible values in snow_1h
+2026-10-10 20:14:43,125 | INFO | __main__ | Affected rows=0 | Flagged missing or impossible values in clouds_all
+2026-10-10 20:14:43,203 | INFO | __main__ | Repeated timestamp rows retained=7612; different weather records can share a timestamp
+2026-10-10 20:14:43,204 | INFO | __main__ | Cleaning completed: rows=48187 | columns=9
+2026-10-10 20:14:43,765 | INFO | __main__ | Saved cleaned dataset: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\traffic_cleaned.csv
