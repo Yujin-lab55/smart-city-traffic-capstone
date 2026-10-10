@@ -46,3 +46,13 @@
 2026-10-10 23:25:38,103 | INFO | part3_preparation | Neural network test evaluation | MAE=281.63 | R2=0.9433
 2026-10-10 23:31:35,430 | INFO | part3_preparation | Starting SHAP analysis | validation samples=200
 2026-10-10 23:32:14,738 | INFO | part3_preparation | SHAP analysis completed and outputs saved.
+2026-10-10 23:38:01,726 | INFO | part3_preparation | MLflow run saved | model=Ridge | run_id=9a80308bcc4f4098a2ba96dbba5c7321
+2026-10-10 23:38:03,200 | INFO | part3_preparation | MLflow run saved | model=RandomForest | run_id=6da56499310b4637834030837360f060
+2026-10-10 23:38:03,318 | INFO | part3_preparation | MLflow run saved | model=NeuralNetwork_MLP | run_id=edb0f41878b949cf9f68b78049550101
+2026-10-10 23:38:03,420 | INFO | part3_preparation | MLflow run saved | model=LogisticRegression | run_id=f51b46a761814c6687cc2d9528d808aa
+2026-10-10 23:38:03,814 | INFO | part3_preparation | MLflow run saved | model=RandomForest | run_id=c4da0c0c86af4789add2e385b37f19aa
+2026-10-10 23:39:40,756 | INFO | part3_preparation | MLflow UI starting at http://127.0.0.1:5000
+2026-10-10 23:57:34,390 | INFO | travel_recommendation | Generated 3 recommendations: Weekday, clear, 06-10
+2026-10-10 23:58:55,458 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-10 23:58:55,475 | INFO | matplotlib.category | Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2026-10-10 23:58:56,219 | INFO | travel_recommendation | Saved travel timing comparison chart.

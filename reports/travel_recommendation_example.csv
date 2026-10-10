@@ -1,0 +1,4 @@
+rank,day_type,weather_main,hour,average_traffic,observed_hours,departure_time,reason
+1,Weekday,clear,10,4472.42,241,10:00,"Lower historical mean traffic within the requested time window, day type and weather."
+2,Weekday,clear,9,4971.31,232,09:00,"Lower historical mean traffic within the requested time window, day type and weather."
+3,Weekday,clear,6,5502.19,263,06:00,"Lower historical mean traffic within the requested time window, day type and weather."
