@@ -25,3 +25,16 @@
 2026-10-10 22:51:15,401 | INFO | part3_preparation | RandomForest completed | validation F1=0.9599 | ROC AUC=0.9986
 2026-10-10 22:51:15,418 | INFO | part3_preparation | Selected classification model by validation F1: RandomForest
 2026-10-10 22:54:43,720 | INFO | part3_preparation | Test evaluation completed; metrics, predictions and models saved.
+2026-10-10 22:58:27,141 | INFO | part3_preparation | Training K-means: k=2
+2026-10-10 22:58:33,324 | INFO | part3_preparation | K-means completed: k=2, silhouette=0.2525
+2026-10-10 22:58:33,325 | INFO | part3_preparation | Training K-means: k=3
+2026-10-10 22:58:33,883 | INFO | part3_preparation | K-means completed: k=3, silhouette=0.2645
+2026-10-10 22:58:33,885 | INFO | part3_preparation | Training K-means: k=4
+2026-10-10 22:58:34,498 | INFO | part3_preparation | K-means completed: k=4, silhouette=0.2205
+2026-10-10 22:58:34,499 | INFO | part3_preparation | Training K-means: k=5
+2026-10-10 22:58:35,024 | INFO | part3_preparation | K-means completed: k=5, silhouette=0.2404
+2026-10-10 22:58:35,026 | INFO | part3_preparation | Training K-means: k=6
+2026-10-10 22:58:35,570 | INFO | part3_preparation | K-means completed: k=6, silhouette=0.2449
+2026-10-10 22:58:35,711 | INFO | part3_preparation | Selected K-means cluster count: 3
+2026-10-10 23:00:59,961 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
+2026-10-10 23:02:27,572 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
