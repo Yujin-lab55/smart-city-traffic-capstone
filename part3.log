@@ -62,3 +62,7 @@
 2026-10-11 00:08:16,145 | INFO | traffic_api | Traffic prediction completed: 5841.33
 2026-10-11 00:08:16,150 | WARNING | traffic_api | Missing input fields: ['hour', 'day_of_week', 'month', 'is_weekend', 'is_holiday', 'hour_sin', 'hour_cos', 'dow_sin', 'dow_cos', 'temp_c', 'rain_1h', 'snow_1h', 'clouds_all', 'is_raining', 'is_snowing', 'is_low_visibility', 'weather_main']
 2026-10-11 00:08:16,282 | INFO | part3_preparation | All three Flask API checks passed.
+2026-10-11 00:15:16,482 | INFO | traffic_api | Traffic prediction completed: 5841.33
+2026-10-11 00:15:16,486 | WARNING | traffic_api | Missing input fields: ['hour', 'day_of_week', 'month', 'is_weekend', 'is_holiday', 'hour_sin', 'hour_cos', 'dow_sin', 'dow_cos', 'temp_c', 'rain_1h', 'snow_1h', 'clouds_all', 'is_raining', 'is_snowing', 'is_low_visibility', 'weather_main']
+2026-10-11 00:15:16,553 | INFO | part3_preparation | All three Flask API checks passed.
+2026-10-11 00:15:20,315 | INFO | fairness_analysis | Saved performance audit for 17 groups.

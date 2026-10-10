@@ -1,0 +1,18 @@
+dimension,group,records,unique_hours,traffic_MAE,actual_proxy_positives,actual_proxy_negatives,proxy_recall,proxy_false_positive_rate,sample_note
+day_type,Weekday,5259,4321,206.99798821209032,736,4523,0.9932065217391305,0.012160070749502542,Review alongside sample counts
+day_type,Weekend,2157,1766,343.1618469389407,159,1998,0.9056603773584906,0.04254254254254254,Review alongside sample counts
+weather_main,clear,2121,2121,187.51089520250676,0,2121,,0.0,Review alongside sample counts
+weather_main,clouds,1878,1878,224.23229290808516,0,1878,,0.0,Review alongside sample counts
+weather_main,drizzle,268,268,165.46178192961716,0,268,,0.0,Review alongside sample counts
+weather_main,fog,183,183,616.6125292965096,42,141,0.9761904761904762,0.18439716312056736,Review alongside sample counts
+weather_main,haze,236,236,287.4836229919604,117,119,0.9572649572649573,0.058823529411764705,Review alongside sample counts
+weather_main,mist,1024,1024,268.68202653490715,418,606,0.9856459330143541,0.06930693069306931,Review alongside sample counts
+weather_main,rain,992,992,205.63274536784124,0,992,,0.0,Review alongside sample counts
+weather_main,smoke,2,2,177.53918434562365,2,0,1.0,,Small sample
+weather_main,snow,444,444,558.5636515224852,182,262,0.9725274725274725,0.20610687022900764,Review alongside sample counts
+weather_main,thunderstorm,268,268,214.47113948864902,134,134,0.9776119402985075,0.08208955223880597,Review alongside sample counts
+time_band,Night_00_05,1881,1511,81.26104881145022,0,1881,,0.0,Review alongside sample counts
+time_band,Morning_06_09,1300,1011,280.78203182757863,373,927,0.9865951742627346,0.021574973031283712,Review alongside sample counts
+time_band,Midday_10_15,1823,1525,288.8424975639296,360,1463,0.9888888888888889,0.03691045796308954,Review alongside sample counts
+time_band,Evening_16_19,1210,1020,351.58752770570163,156,1054,0.967948717948718,0.051233396584440226,Review alongside sample counts
+time_band,Late_20_23,1202,1020,298.6298403340643,6,1196,0.0,0.010033444816053512,Review alongside sample counts
