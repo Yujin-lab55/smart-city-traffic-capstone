@@ -24,3 +24,9 @@
 2026-10-10 20:14:43,203 | INFO | __main__ | Repeated timestamp rows retained=7612; different weather records can share a timestamp
 2026-10-10 20:14:43,204 | INFO | __main__ | Cleaning completed: rows=48187 | columns=9
 2026-10-10 20:14:43,765 | INFO | __main__ | Saved cleaned dataset: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\traffic_cleaned.csv
+2026-10-10 20:29:56,000 | INFO | __main__ | Before feature engineering: rows=48187 | columns=9
+2026-10-10 20:29:56,245 | INFO | __main__ | After feature engineering: rows=48187 | columns=34
+2026-10-10 20:29:57,482 | INFO | __main__ | Saved feature dataset: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\traffic_features.csv
+2026-10-10 20:29:57,509 | INFO | __main__ | Saved feature definitions: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part2\data\processed\feature_metadata.json
+2026-10-10 21:20:55,539 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-10 21:20:55,609 | WARNING | Comm | No such comm: d290fff2-28aa-4bfc-8507-eabf90a13d4f
