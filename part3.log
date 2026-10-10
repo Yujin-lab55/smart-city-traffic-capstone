@@ -1,0 +1,9 @@
+2026-10-10 22:31:13,082 | WARNING | part3_preparation | Removed exact duplicate rows=17
+2026-10-10 22:31:13,153 | INFO | part3_preparation | train | rows=33497 | unique timestamps=28402 | start=2012-10-02 09:00:00 | end=2017-05-10 04:00:00
+2026-10-10 22:31:13,156 | INFO | part3_preparation | validation | rows=7274 | unique timestamps=6086 | start=2017-05-10 05:00:00 | end=2018-01-19 14:00:00
+2026-10-10 22:31:13,158 | INFO | part3_preparation | test | rows=7416 | unique timestamps=6087 | start=2018-01-19 15:00:00 | end=2018-09-30 23:00:00
+2026-10-10 22:36:28,809 | WARNING | part3_preparation | train: filled 10 invalid/missing values in temp
+2026-10-10 22:36:28,813 | WARNING | part3_preparation | train: filled 1 invalid/missing values in rain_1h
+2026-10-10 22:36:28,818 | INFO | part3_preparation | train: weather cleaning completed, rows=33497
+2026-10-10 22:36:28,834 | INFO | part3_preparation | validation: weather cleaning completed, rows=7274
+2026-10-10 22:36:28,848 | INFO | part3_preparation | test: weather cleaning completed, rows=7416
