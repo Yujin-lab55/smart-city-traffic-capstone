@@ -1,0 +1,14 @@
+antecedent,consequent,condition_count,joint_count,support,confidence,lift
+time_band=Morning_06_09 AND day_type=Weekday AND weather_main=clear,congestion=Severe,922,794,0.023703615249126786,0.8611713665943601,3.4464345599535577
+time_band=Morning_06_09 AND day_type=Weekday AND weather_main=rain,congestion=Severe,452,389,0.011612980266889571,0.8606194690265486,3.4442258487434048
+time_band=Morning_06_09 AND day_type=Weekday AND weather_main=mist,congestion=Severe,732,602,0.01797175866495507,0.8224043715846995,3.2912878416932707
+time_band=Morning_06_09 AND day_type=Weekday,congestion=Severe,4057,3320,0.09911335343463594,0.8183386738969682,3.2750167932528966
+time_band=Morning_06_09 AND day_type=Weekday AND weather_main=clouds,congestion=Severe,1233,999,0.029823566289518464,0.8102189781021898,3.2425215184574734
+time_band=Midday_10_15 AND day_type=Weekend AND weather_main=clouds,congestion=High,917,742,0.022151237424246947,0.8091603053435115,3.2367378490675427
+time_band=Midday_10_15 AND day_type=Weekend AND weather_main=clear,congestion=High,628,502,0.014986416694032301,0.7993630573248408,3.1975476870325044
+time_band=Midday_10_15 AND day_type=Weekend,congestion=High,2302,1817,0.054243663611666715,0.7893136403127715,3.1573488189105454
+time_band=Evening_16_19 AND day_type=Weekend AND weather_main=clouds,congestion=High,604,469,0.014001253843627787,0.7764900662251656,3.1060529912042476
+time_band=Evening_16_19 AND day_type=Weekend,congestion=High,1533,1122,0.03349553691375347,0.7318982387475538,2.927680356260665
+time_band=Midday_10_15 AND weather_main=snow,congestion=High,537,347,0.010359136639102009,0.6461824953445066,2.584807146710644
+time_band=Midday_10_15 AND weather_main=mist,congestion=High,738,472,0.014090814102755471,0.6395663956639567,2.558341957912056
+time_band=Morning_06_09 AND weather_main=rain,congestion=Severe,626,389,0.011612980266889571,0.6214057507987221,2.4868851176230335

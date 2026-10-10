@@ -38,3 +38,4 @@
 2026-10-10 22:58:35,711 | INFO | part3_preparation | Selected K-means cluster count: 3
 2026-10-10 23:00:59,961 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
 2026-10-10 23:02:27,572 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
+2026-10-10 23:05:02,103 | INFO | part3_preparation | Association rules saved | all=41 | high/severe=13
