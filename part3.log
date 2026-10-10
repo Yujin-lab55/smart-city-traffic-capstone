@@ -14,3 +14,13 @@
 2026-10-10 22:43:20,394 | INFO | part3_preparation | train: labels created | proxy_1=3688
 2026-10-10 22:43:20,396 | INFO | part3_preparation | validation: labels created | proxy_1=903
 2026-10-10 22:43:20,399 | INFO | part3_preparation | test: labels created | proxy_1=895
+2026-10-10 22:48:50,922 | INFO | part3_preparation | Training regression model: Ridge
+2026-10-10 22:48:51,122 | INFO | part3_preparation | Ridge completed | validation MAE=813.41 | R2=0.7242
+2026-10-10 22:48:51,125 | INFO | part3_preparation | Training regression model: RandomForest
+2026-10-10 22:48:54,042 | INFO | part3_preparation | RandomForest completed | validation MAE=249.84 | R2=0.9587
+2026-10-10 22:48:54,049 | INFO | part3_preparation | Selected regression model by validation MAE: RandomForest
+2026-10-10 22:51:14,243 | INFO | part3_preparation | Training classification model: LogisticRegression
+2026-10-10 22:51:14,640 | INFO | part3_preparation | LogisticRegression completed | validation F1=0.8898 | ROC AUC=0.9965
+2026-10-10 22:51:14,641 | INFO | part3_preparation | Training classification model: RandomForest
+2026-10-10 22:51:15,401 | INFO | part3_preparation | RandomForest completed | validation F1=0.9599 | ROC AUC=0.9986
+2026-10-10 22:51:15,418 | INFO | part3_preparation | Selected classification model by validation F1: RandomForest
