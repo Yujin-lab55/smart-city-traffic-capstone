@@ -39,3 +39,8 @@
 2026-10-10 23:00:59,961 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
 2026-10-10 23:02:27,572 | INFO | part3_preparation | Saved cluster visualization: C:\Users\bamsa\OneDrive\Desktop\NUS - AI\Copstone Project\capstone_part3\figures\kmeans_cluster_patterns.png
 2026-10-10 23:05:02,103 | INFO | part3_preparation | Association rules saved | all=41 | high/severe=13
+2026-10-10 23:08:52,488 | INFO | part3_preparation | Training neural network: hidden layers=(64, 32)
+2026-10-10 23:09:34,886 | INFO | part3_preparation | Neural network completed | epochs=132 | validation MAE=279.05 | R2=0.9527
+2026-10-10 23:23:06,696 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-10 23:23:06,699 | WARNING | Comm | No such comm: 8be2688e-4387-4bcd-98dd-9addacd1763f
+2026-10-10 23:25:38,103 | INFO | part3_preparation | Neural network test evaluation | MAE=281.63 | R2=0.9433
