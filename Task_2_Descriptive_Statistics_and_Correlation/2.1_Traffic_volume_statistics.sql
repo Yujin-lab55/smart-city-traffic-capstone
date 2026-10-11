@@ -40,4 +40,15 @@ SELECT
     s.record_count,
     ROUND(s.mean_volume, 2) AS mean,
     m.median_volume AS median,
-    ROUND(v.sample_variance, 2) AS sample_variance
+    ROUND(v.sample_variance, 2) AS sample_variance,
+    s.minimum_volume AS minimum,
+    s.maximum_volume AS maximum,
+    s.maximum_volume - s.minimum_volume AS range_volume
+FROM summary AS s
+CROSS JOIN median_value AS m
+CROSS JOIN variance_value AS v;
+
+-- Sample standard deviation:
+-- SQRT(3947615.32) = approximately 1986.86.
+-- Calculated externally because SQRT() is unavailable
+-- in the SQLite build used for this project.
